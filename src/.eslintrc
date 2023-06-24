@@ -7,7 +7,8 @@
   ],
   "plugins": ["react-hooks"],
   "env": {
-    "browser": true
+    "browser": true,
+    "es6" : true
   },
   "parserOptions": {
     "ecmaVersion": 2021,
@@ -17,7 +18,7 @@
     "sourceType": "module"
   },
   "settings": {
-    "react": {
+    '"react": {
       "version": "detect"
     }
   },
